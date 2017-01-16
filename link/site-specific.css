@@ -1,0 +1,100 @@
+/*
+	<https://y.st./>
+	Copyright © 2015-2017 //y.st. <mailto:copyright@y.st>
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program. If not, see <http://www.gnu.org./licenses/>.
+*/
+
+body {
+	background-image: url("/link/background.png");
+	background-color: #000;
+/*	background-attachment: fixed; */
+}
+
+blockquote {
+	background-image: url("/link/background_-_inverted.png");
+	background-color: #222;
+/*	background-attachment: fixed; */
+}
+
+blockquote blockquote {
+	background-image: url("/link/background.png");
+	background-color: #000;
+/*	background-attachment: fixed;*/
+}
+
+ul.langselect {
+	font-size: 3rem;
+	text-align: center;
+	font-weight: bold;
+}
+
+ul.langselect span {
+	color: #888;
+}
+
+div.weblogindex {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+/* This centers the text for any browser that does not support flex boxes: */
+	text-align: center;
+}
+
+h2.tld-great, h3.tld-available, span.needed-for-bachelor {
+	color: #000;
+	background-color: #088;
+}
+
+h2.tld-decent, h3.tld-unknownavailability {
+	color: #000;
+	background-color: #880;
+}
+
+h2.tld-usable, h3.tld-unavailable, span.needed-for-associate {
+	color: #000;
+	background-color: #808;
+}
+
+a[href="https://y.st./a/canary.txt"], a[href="/a/canary.txt"] {
+	color: #ff0;
+}
+
+/* Text decorations used when no semantic value is available */
+span.underline {
+	text-decoration: underline;
+}
+
+img.weblog-header-image {
+	max-width: calc(100% - 2rem - 2px);
+	display: block;
+	margin: auto;
+	padding: 1rem;
+	border: 1px dashed;
+	background-color: #000;
+}
+
+div.APA_references p {
+	margin-left: 5rem;
+	text-indent: -4rem;
+}
+
+span.hyperlink_unavailable {
+	color: #444;
+}
+
+a.hyperlink_unavailable {
+	color: #888;
+}
+
