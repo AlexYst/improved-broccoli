@@ -17,19 +17,19 @@
 */
 
 body {
-	background-image: url("/link/background.png");
+	background-image: url("/improved-broccoli/link/background.png");
 	background-color: #000;
 /*	background-attachment: fixed; */
 }
 
 blockquote {
-	background-image: url("/link/background_-_inverted.png");
+	background-image: url("/improved-broccoli/link/background_-_inverted.png");
 	background-color: #222;
 /*	background-attachment: fixed; */
 }
 
 blockquote blockquote {
-	background-image: url("/link/background.png");
+	background-image: url("/improved-broccoli/link/background.png");
 	background-color: #000;
 /*	background-attachment: fixed;*/
 }
